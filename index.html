@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minh Nguyen Market</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font/themify-icons/themify-icons.css">
+    <script src="/assets/java/d29004f212.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/iconweb/Healthy Food.png"size=20x20>
+</head>
+<body>
+<div id="main">
+    <div id="header"> 
+        <div class="nav__pc">
+            <ul id="nav">
+               
+                     <li><a href="">
+                         <i class="ti-home"></i>
+                         Trang chủ</a></li>
+                     <li><a href="">
+                        <i class="ti-shopping-cart"></i>
+                        Sản phẩm</a></li>
+                     <li><a href="">
+                         % Khuyến Mãi</a></li>
+                    <li><a href="">
+                         <i class="ti-headphone-alt"></i>
+                          CSKH</a></li>
+                     <li>
+                        <div class="cart-icon">
+                            <a href="#"><p><i class="fa-solid fa-cart-shopping"></i>Giỏ Hàng<span>0</span><sup>d</sup></p></a>
+                         </div>
+                     </li>
+                     <li class="header__navbar-item-user">
+                       <a><i class="ti-user"></i>Tài khoản</a>
+                        <input hidden type="checkbox"id="show-signin" class="button-show-signin">
+                     </li>
+                     <li><a href="">
+                        Nhiều hơn  
+                         <i class="nav-arrow-down ti-angle-down"></i>
+                         </a>
+                        <ul class="subnav">
+                            <li><a href="">Hôm nay ăn gì ?</a></li>
+                            <li><a href="">Công thức nấu ăn </a></li>
+                            <li><a href="">Balance </a></li>
+                        </ul>
+                        
+                     </li>
+            </ul>
+          
+        </div>
+             <label for="nav-mobile-input" class="nav__bar-btn">
+                     <img src="/assets/Mobile-nav/bars-solid (1).svg" alt=""><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+             </label>
+  
+            <input type="checkbox" hidden class="nav__input" id="nav-mobile-input">
+            <label for="nav-mobile-input" class="nav__overlay">
+            </label>
+            <div class="nav__mobile">
+                <label for="nav-mobile-input" class="nav__mobile-close">
+                   <img src="/assets/Mobile-nav/right-from-bracket-solid.svg" alt="">
+                </label>
+                <ul id="nav__mobile-list">
+                   
+                         <li><a href=""class="nav__mobile-link">
+                             <i class="ti-home"></i>
+                             Trang Chủ</a></li>
+                         <li><a href=""class="nav__mobile-link">
+                           Sản Phẩm </a></li>
+                         <li><a href=""class="nav__mobile-link">
+                            Khuyến Mãi</a></li>
+                        <li><a href=""class="nav__mobile-link">
+                             CSKH</a></li>
+                         <li>
+                            <div class="cart-icon-mobile">
+                                <p><i class="fa-solid fa-cart-shopping"></i>Giỏ Hàng<span></span><sup></sup></p>
+                             </div>
+                             <div class="show-signin-mobile">
+                                <p><i class="ti-user"></i>Tài khoản<span></span><sup></sup></p>
+                             </div>
+                           
+                        </li>
+                </ul>
+        </div>
+      
+    </div>
+    <div id="slider">
+        <img src="./assets/Slider/slider1.jpg" class="slider-img fade"alt="">
+        <img src="./assets/Slider/slider2.jpg" class="slider-img fade"alt="">
+        <img src="./assets/Slider/slider3.jpg" class="slider-img fade"alt="">
+        <img src="./assets/Slider/slider4.jpg" class="slider-img fade"alt="">
+       
+    </div>
+         
+    <div class="form-user">
+        <form class="signin-form" action="">
+            <img class ="signin-form-img" src="/assets/Mobile-nav/right-from-bracket-solid.svg" alt="">
+            <H1>Đăng Ký</H1>
+            Tên:</br><input class="input-name"type="text" placeholder="Tên"></br>
+            Họ:</br><input class="input-name" type="text" placeholder="Họ"></br>
+            Email:</br><input type="Email" placeholder="Email"></br>
+             Password:</br> <input type="password" placeholder="Password"></br>
+            <span> <input type="checkbox" name="Agree" id="checkbox-signin">Tôi đồng ý với điều khoản</span></br>
+            <button>Tạo tài khoản</button>
+            <p class="show-signup-button">Bạn đã có tài khoản?</p>
+        </form>
+    </div>
+    <div class="form-user-2">
+        <form class="signup-form">
+            <img class ="signup-form-img" src="/assets/Mobile-nav/right-from-bracket-solid.svg" alt="">
+            <H1>Đăng Nhập</H1>
+            Tên đăng nhập:</br><input class="input-name"type="text" placeholder="Tên đăng nhập"></br>
+             Password:</br> <input type="password" placeholder="Password"></br>
+            <span><input type="checkbox" name="Agree" id="checkbox-signin">Ghi nhớ đăng nhập</span></br>
+            <button>Đăng Nhập<button>
+        </form>
+    </div>
+    <div id="name">
+        <H1>🥗VEGETABLES🥗</H1>
+    </div>
+    <div id="content">
+       <div class="grid">
+           <div class="grid__row app_content">
+                 <div class="grid__column-10">
+                    <div class="home-filter">
+                     </div>
+                     <div class="home-product">
+                         <div class="grid__row">
+                             <div class="grid__column-2-4">
+                                 <div class="home-product-item">
+                                     <div class="home-product-item__img" >
+                                        <img src="./assets/Product-img/1/img1.jpg" alt="">
+                                     </div>
+                                        <div class="home-product-item-name">
+                                            <h4>Bean Sprouts</h4>
+                                         </div>
+                                     <div class="home-product-item__price"> 
+                                        <span class="home-product-item__price-old">8.000đ</span>
+                                         <span class="home-product-item__price-current">4.000</span>
+                                     </div>
+                                     <!-- <div class="buy-btn"> -->
+                                            <button> Chọn mua</button>
+                                     <!-- </div>   -->
+                                     
+                                 </div>
+                             </div>
+                             <div class="grid__column-2-4">
+                                 <div class="home-product-item">
+                                     <div class="home-product-item__img" >
+                                        <img src="./assets/Product-img/1/img2.jpg" alt="">
+                                     </div>
+                                        <div class="home-product-item-name">
+                                            <h4>Cucumber</h4>
+                                         </div>
+                                     <div class="home-product-item__price"> 
+                                         <span class="home-product-item__price-old">20.000đ</span>
+                                         <span class="home-product-item__price-current">15.000</span>
+                                     </div>
+                                     <!-- <div class="buy-btn"> -->
+                                            <button> Chọn mua</button>
+                                     <!-- </div> -->
+                                     
+                                 </div>
+                             </div>
+                             <div class="grid__column-2-4">
+                                 <div class="home-product-item">
+                                     <div class="home-product-item__img" >
+                                        <img src="./assets/Product-img/1/img3.jpg" alt="">
+                                     </div>
+                                        <div class="home-product-item-name">
+                                            <h4>Water Spinach</h4>
+                                         </div>
+                                     <div class="home-product-item__price"> 
+                                         <span class="home-product-item__price-old">40.000đ</span>
+                                         <span class="home-product-item__price-current">38.000</span>
+                                     </div>
+                                     <!-- <div class="buy-btn"> -->
+                                            <button> Chọn mua</button>
+                                     <!-- </div> -->
+                                     
+                                 </div>
+                             </div>
+                             <div class="grid__column-2-4">
+                                 <div class="home-product-item">
+                                     <div class="home-product-item__img" >
+                                        <img src="./assets/Product-img/1/img4.jpg" alt="">
+                                     </div>
+                                        <div class="home-product-item-name">
+                                            <h4>Lettuce</h4>
+                                         </div>
+                                     <div class="home-product-item__price"> 
+                                         <!-- <span class="home-product-item__price-old">8.000đ</span> -->
+                                         <span class="home-product-item__price-current">6.000</span>
+                                     </div>
+                                     <!-- <div class="buy-btn"> -->
+                                            <button> Chọn mua</button>
+                                     <!-- </div> -->
+                                     
+                                 </div>
+                             </div>
+                             <div class="grid__column-2-4">
+                                 <div class="home-product-item">
+                                     <div class="home-product-item__img" >
+                                        <img src="./assets/Product-img/1/img5.jpg" alt="">
+                                     </div>
+                                        <div class="home-product-item-name">
+                                            <h4>Carrot</h4>
+                                         </div>
+                                     <div class="home-product-item__price"> 
+                                         <!-- <span class="home-product-item__price-old">25.000đ</span> -->
+                                         <span class="home-product-item__price-current">23.000</span>
+                                     </div>
+                                     <!-- <div class="buy-btn"> -->
+                                            <button> Chọn mua</button>
+                                     <!-- </div> -->
+                                     
+                                 </div>
+                             </div>
+                             <div class="grid__column-2-4">
+                                 <div class="home-product-item">
+                                     <div class="home-product-item__img" >
+                                        <img src="./assets/Product-img/1/img6.jpg" alt="">
+                                     </div>
+                                        <div class="home-product-item-name">
+                                            <h4>Cabbage</h4>
+                                         </div>
+                                     <div class="home-product-item__price"> 
+                                         <!-- <span class="home-product-item__price-old">30.000đ</span> -->
+                                         <span class="home-product-item__price-current">28.000</span>
+                                     </div>
+                                     <!-- <div class="buy-btn"> -->
+                                            <button> Chọn mua</button>
+                                     <!-- </div> -->
+                                     
+                                 </div>
+                             </div>
+                             <div class="grid__column-2-4">
+                                 <div class="home-product-item">
+                                     <div class="home-product-item__img" >
+                                        <img src="./assets/Product-img/1/img7.jpg" alt="">
+                                     </div>
+                                        <div class="home-product-item-name">
+                                            <h4>Asparagus</h4>
+                                         </div>
+                                     <div class="home-product-item__price"> 
+                                         
+                                         <span class="home-product-item__price-current">70.000</span>
+                                     </div>
+                                     <!-- <div class="buy-btn"> -->
+                                            <button> Chọn mua</button>
+                                     <!-- </div> -->
+                                     
+                                 </div>
+                             </div>
+                             <div class="grid__column-2-4">
+                                 <div class="home-product-item">
+                                     <div class="home-product-item__img" >
+                                        <img src="./assets/Product-img/1/img8.jpg" alt="">
+                                     </div>
+                                        <div class="home-product-item-name">
+                                            <h4>Brocoli</h4>
+                                         </div>
+                                     <div class="home-product-item__price"> 
+                                         <span class="home-product-item__price-old">80.000đ</span>
+                                         <span class="home-product-item__price-current">68.000</span>
+                                     </div>
+                                     <!-- <div class="buy-btn"> -->
+                                            <button> Chọn mua</button>
+                                     <!-- </div> -->
+                                     
+                                 </div>
+                             </div>
+                             
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div><br><br>
+        <div id="name">
+            <H1>🍑🍉FRUITS🥝🍎</H1>
+        </div>
+        <div id="content">
+           <div class="grid">
+               <div class="grid__row app_content">
+                     <div class="grid__column-10">
+                        <div class="home-filter">
+                         </div>
+                         <div class="home-product">
+                             <div class="grid__row">
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                         <div class="home-product-item__img" >
+                                            <img src="./assets/Product-img/2/img1.jpg" alt="">
+                                         </div>
+                                            <div class="home-product-item-name">
+                                                <h4>Pineapple</h4>
+                                             </div>
+                                         <div class="home-product-item__price"> 
+                                             <!-- <span class="home-product-item__price-old">18.000đ</span> -->
+                                             <span class="home-product-item__price-current">17.000</span>
+                                         </div>
+                                         <!-- <div class="buy-btn"> -->
+                                                <button> Chọn mua</button>
+                                         <!-- </div> -->
+                                         
+                                     </div>
+                                 </div>
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                         <div class="home-product-item__img" >
+                                            <img src="./assets/Product-img/2/img2.jpg" alt="">
+                                         </div>
+                                            <div class="home-product-item-name">
+                                                <h4>Watermellon</h4>
+                                             </div>
+                                         <div class="home-product-item__price"> 
+                                             <!-- <span class="home-product-item__price-old">25.000đ</span> -->
+                                             <span class="home-product-item__price-current">20.000</span>
+                                         </div>
+                                         <!-- <div class="buy-btn"> -->
+                                                <button> Chọn mua</button>
+                                         <!-- </div> -->
+                                         
+                                     </div>
+                                 </div>
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                         <div class="home-product-item__img" >
+                                            <img src="./assets/Product-img/2/img3.jpg" alt="">
+                                         </div>
+                                            <div class="home-product-item-name">
+                                                <h4>Kiwi</h4>
+                                             </div>
+                                         <div class="home-product-item__price"> 
+                                             <!-- <span class="home-product-item__price-old">40.000đ</span> -->
+                                             <span class="home-product-item__price-current">38.000</span>
+                                         </div>
+                                         <!-- <div class="buy-btn"> -->
+                                                <button> Chọn mua</button>
+                                         <!-- </div> -->
+                                         
+                                     </div>
+                                 </div>
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                         <div class="home-product-item__img" >
+                                            <img src="./assets/Product-img/2/img4.jpg" alt="">
+                                         </div>
+                                            <div class="home-product-item-name">
+                                                <h4>Blueberry</h4>
+                                             </div>
+                                         <div class="home-product-item__price"> 
+                                             <span class="home-product-item__price-old">800.000đ</span>
+                                             <span class="home-product-item__price-current">750.000</span>
+                                         </div>
+                                         <!-- <div class="buy-btn"> -->
+                                                <button> Chọn mua</button>
+                                         <!-- </div> -->
+                                         
+                                     </div>
+                                 </div>
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                         <div class="home-product-item__img" >
+                                            <img src="./assets/Product-img/2/img5.jpg" alt="">
+                                         </div>
+                                            <div class="home-product-item-name">
+                                                <h4>Pomelo</h4>
+                                             </div>
+                                         <div class="home-product-item__price"> 
+                                             <!-- <span class="home-product-item__price-old">50.000đ</span> -->
+                                             <span class="home-product-item__price-current">40.000</span>
+                                         </div>
+                                         <!-- <div class="buy-btn"> -->
+                                                <button> Chọn mua</button>
+                                         <!-- </div> -->
+                                         
+                                     </div>
+                                 </div>
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                         <div class="home-product-item__img" >
+                                             <img src="./assets/Product-img/2/img6.jpg" alt="">
+                                        </div>
+                                            <div class="home-product-item-name">
+                                                <h4>Orange</h4>
+                                             </div>
+                                         <div class="home-product-item__price"> 
+                                             <!-- <span class="home-product-item__price-old">50.000đ</span> -->
+                                             <span class="home-product-item__price-current">49.000</span>
+                                         </div>
+                                         <!-- <div class="buy-btn"> -->
+                                                <button> Chọn mua</button>
+                                         <!-- </div> -->
+                                         
+                                     </div>
+                                 </div>
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                         <div class="home-product-item__img" >
+                                            <img src="./assets/Product-img/2/img7.jpg" alt="">
+                                         </div>
+                                            <div class="home-product-item-name">
+                                                <h4>Cherry</h4>
+                                             </div>
+                                         <div class="home-product-item__price"> 
+                                             <!-- <span class="home-product-item__price-old">120.000đ</span> -->
+                                             <span class="home-product-item__price-current">100.000</span>
+                                         </div>
+                                         <!-- <div class="buy-btn"> -->
+                                                <button> Chọn mua</button>
+                                         <!-- </div> -->
+                                         
+                                     </div>
+                                 </div>
+                                 <div class="grid__column-2-4">
+                                     <div class="home-product-item">
+                                         <div class="home-product-item__img" >
+                                            <img src="./assets/Product-img/2/img8.jpg" alt="">
+                                         </div>
+                                            <div class="home-product-item-name">
+                                                <h4>Apple</h4>
+                                             </div>
+                                         <div class="home-product-item__price"> 
+                                             <!-- <span class="home-product-item__price-old">60.000đ</span> -->
+                                             <span class="home-product-item__price-current">50.000</span>
+                                         </div>
+                                         <!-- <div class="buy-btn"> -->
+                                                <button> Chọn mua</button>
+                                         <!-- </div> -->
+                                         
+                                     </div>
+                                 </div>
+                                 
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br>
+            <div id="name">
+                <H1>🧘🏻‍♀️ HEALTHY FOOD 🧘🏻‍♂️</H1>
+            </div>
+            <div id="content">
+               <div class="grid">
+                   <div class="grid__row app_content">
+                         <div class="grid__column-10">
+                            <div class="home-filter">
+                             </div>
+                             <div class="home-product">
+                                 <div class="grid__row">
+                                     <div class="grid__column-2-4">
+                                         <div class="home-product-item">
+                                             <div class="home-product-item__img" )>
+                                                <img src="./assets/Product-img/3/img1.jpg" alt="">
+                                             </div>
+                                                <div class="home-product-item-name">
+                                                    <h4>Egg</h4>
+                                                 </div>
+                                             <div class="home-product-item__price"> 
+                                                 <!-- <span class="home-product-item__price-old">30.000đ</span> -->
+                                                 <span class="home-product-item__price-current">26.000</span>
+                                             </div>
+                                             <!-- <div class="buy-btn"> -->
+                                                    <button> Chọn mua</button>
+                                             <!-- </div> -->
+                                             
+                                         </div>
+                                     </div>
+                                     <div class="grid__column-2-4">
+                                         <div class="home-product-item">
+                                             <div class="home-product-item__img" )>
+                                                <img src="./assets/Product-img/3/img2.jpg" alt="">
+                                             </div>
+                                                <div class="home-product-item-name">
+                                                    <h4>Lean Beef</h4>
+                                                 </div>
+                                             <div class="home-product-item__price"> 
+                                                 <!-- <span class="home-product-item__price-old">200.000đ</span> -->
+                                                 <span class="home-product-item__price-current">180.000</span>
+                                             </div>
+                                             <!-- <div class="buy-btn"> -->
+                                                    <button> Chọn mua</button>
+                                             <!-- </div> -->
+                                             
+                                         </div>
+                                     </div>
+                                     <div class="grid__column-2-4">
+                                         <div class="home-product-item">
+                                             <div class="home-product-item__img" >
+                                                <img src="./assets/Product-img/3/img3.jpg" alt="">
+                                             </div>
+                                                <div class="home-product-item-name">
+                                                    <h4>Chicken Breasts</h4>
+                                                 </div>
+                                             <div class="home-product-item__price"> 
+                                                 <!-- <span class="home-product-item__price-old">40.000đ</span> -->
+                                                 <span class="home-product-item__price-current">38.000</span>
+                                             </div>
+                                             <!-- <div class="buy-btn"> -->
+                                                    <button> Chọn mua</button>
+                                             <!-- </div> -->
+                                             
+                                         </div>
+                                     </div>
+                                     <div class="grid__column-2-4">
+                                         <div class="home-product-item">
+                                             <div class="home-product-item__img" >
+                                                <img src="./assets/Product-img/3/img4.jpg" alt="">
+                                             </div>
+                                                <div class="home-product-item-name">
+                                                    <h4>Lamb</h4>
+                                                 </div>
+                                             <div class="home-product-item__price"> 
+                                                 <!-- <span class="home-product-item__price-old">80.000đ</span> -->
+                                                 <span class="home-product-item__price-current">75.000</span>
+                                             </div>
+                                             <!-- <div class="buy-btn"> -->
+                                                    <button> Chọn mua</button>
+                                             <!-- </div> -->
+                                             
+                                         </div>
+                                     </div>
+                                     <div class="grid__column-2-4">
+                                         <div class="home-product-item">
+                                             <div class="home-product-item__img" >
+                                                <img src="./assets/Product-img/3/img5.jpg" alt="">
+                                             </div>
+                                                <div class="home-product-item-name">
+                                                    <h4>Cheese</h4>
+                                                 </div>
+                                             <div class="home-product-item__price"> 
+                                                 <!-- <span class="home-product-item__price-old">50.000đ</span> -->
+                                                 <span class="home-product-item__price-current">40.000</span>
+                                             </div>
+                                             <!-- <div class="buy-btn"> -->
+                                                    <button> Chọn mua</button>
+                                             <!-- </div> -->
+                                             
+                                         </div>
+                                     </div>
+                                     <div class="grid__column-2-4">
+                                         <div class="home-product-item">
+                                             <div class="home-product-item__img" >
+                                                <img src="./assets/Product-img/3/img6.jpg" alt="">
+                                             </div>
+                                                <div class="home-product-item-name">
+                                                    <h4>Walnuts</h4>
+                                                 </div>
+                                             <div class="home-product-item__price"> 
+                                                 <!-- <span class="home-product-item__price-old">30.000đ</span> -->
+                                                 <span class="home-product-item__price-current">10.000</span>
+                                             </div>
+                                             <!-- <div class="buy-btn"> -->
+                                                    <button> Chọn mua</button>
+                                             <!-- </div> -->
+                                             
+                                         </div>
+                                     </div>
+                                     <div class="grid__column-2-4">
+                                         <div class="home-product-item">
+                                             <div class="home-product-item__img" >
+                                                <img src="./assets/Product-img/3/img7.jpg" alt="">
+                                             </div>
+                                                <div class="home-product-item-name">
+                                                    <h4>Brown Rice</h4>
+                                                 </div>
+                                             <div class="home-product-item__price"> 
+                                                 <!-- <span class="home-product-item__price-old">80.000đ</span> -->
+                                                 <span class="home-product-item__price-current">70.000</span>
+                                             </div>
+                                             <!-- <div class="buy-btn"> -->
+                                                    <button> Chọn mua</button>
+                                             <!-- </div> -->
+                                             
+                                         </div>
+                                     </div>
+                                     <div class="grid__column-2-4">
+                                         <div class="home-product-item">
+                                             <div class="home-product-item__img" >
+                                                <img src="./assets/Product-img/3/img8.jpg" alt="">
+                                             </div>
+                                                <div class="home-product-item-name">
+                                                    <h4> Oats</h4>
+                                                 </div>
+                                             <div class="home-product-item__price"> 
+                                                 <!-- <span class="home-product-item__price-old">400.000đ</span> -->
+                                                 <span class="home-product-item__price-current">320.000</span>
+                                             </div>
+                                             <!-- <div class="buy-btn"> -->
+                                                    <button> Chọn mua</button>
+                                             <!-- </div> -->
+                                             
+                                         </div>
+                                     </div>
+                                     
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                
+                    
+        <div class="map-section">
+            <img src="./assets/map/footer-img.jpg" alt="Map">
+        </div>
+    </div> 
+    <section class="cart">
+        <h2>Cart</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản Phẩm</th>
+                        <th>Giá</th>
+                        <th>SL</th>
+                        <th>Chọn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td style="display:flex ;align-items:center"><img style="width: 80px" src="./assets/Product-img/3/img8.jpg" alt="">Oats</td>
+                        <td><p><span>320000</span><sup>d</sup></p></td>
+                        <td><input style="width: 30px; outline: none;" type="number"value="1"min="1"></td>
+                        <td style="cursor:pointer;">Xoa</td>
+                    </tr>
+                    <tr>
+                        <td style="display:flex ;align-items:center"><img style="width: 80px" src="./assets/Product-img/3/img6.jpg" alt="">Walnuts</td>
+                        <td><p><span>320000</span><sup>d</sup></p></td>
+                        <td><input style="width: 30px; outline: none;" type="number"value="1"min="1"></td>
+                        <td style="cursor:pointer;">Xoa</td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <div style="text-align:center;" class="price-total">
+                <p style="font-weight: bold;">Tong Tien<span>0</span><sup>d</sup></p>
+            </div>
+            <button class="Pay" onclick="pay()" >Buy</button></br>
+           <img src="/assets/Mobile-nav/right-from-bracket-solid.svg" class="fa-solid fa-xmark close-icon"alt="">
+        </form>
+    </br>
+    
+    </section>
+    <div id="footer">
+        <div id="contact">
+            <div id="contact-content">
+                <a href="index.html"><h2>Trang chủ</h2> </a> <br>
+                <a href="#">Sản phẩm </a> <br>
+                <a href="#">Khuyến mãi</a> <br>
+                <a href="#"> Chăm sóc khách hàng</a><br>
+            </div>
+            <div id="contact-content" style="font-size: smaller;">
+                <h2>Chi nhánh</h2>
+               <p>Địa chỉ: 125 Nguyễn Thị Minh Khai, Phường Thắng Lợi,TP.BMT</p>
+               <p>Địa chỉ: 15 Phan Bội Châu, Thành Nhất,TP.BMT</p>
+              
+            </div>
+            <div id="contact-content">
+                <h3>Đóng góp ý kiến </h3>
+                <p>Email:<Email:mailto>mailcuatoi@gmail.com</Email:mailto></p>
+                <p>SDT:0812345678</p>
+            </div>
+        </div>
+        <img style="height: 200px;width: 200px;" class="logo"src="./assets/iconweb/logo.png" alt="">
+        <div class="socials-list">
+            <a href=""><i class="ti-facebook"></i></a>
+            <a href=""><i class="ti-instagram"></i></a>
+            <a href=""><i class="ti-youtube"></i></a>
+            <a href=""><i class="ti-pinterest"></i></a>
+            <a href=""><i class="ti-twitter"></i></a>
+            <a href=""><i class="ti-linkedin"></i></a>
+        </div>
+        <div class="copyright"><p> ©Powered by <a href="#">F4ll 1n luV</p>
+        </a></div>
+       
+    </div>
+</div>   
+<script>
+    var slideIndex;
+function showslide() {
+    var i;
+    var slide = document.getElementsByClassName("fade");
+
+    for (i = 0; i < slide.length; i++) {
+        slide[i].style.display = "none";
+    }
+
+    slide[slideIndex].style.display = "block";
+    slideIndex++;
+    if (slideIndex > slide.length - 1) {
+        slideIndex = 0;
+
+    }
+
+    setTimeout(showslide, 5000);
+}
+showslide(slideIndex = 0);
+function pay(){
+    alert("Đã Thanh Toán Thành Công");
+    }
+</script>
+<script src="/assets/java/java.js"></script>
+</body>
+</html>
